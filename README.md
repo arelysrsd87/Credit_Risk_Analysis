@@ -1,13 +1,6 @@
 # Credit_Risk_Analysis
 # Overview of the analysis
-In this project, we use Python to build and evaluate several machine learning models to predict credit risk.
-We adopted the following procedure:
-- Oversample the data using the RandomOverSampler and SMOTE algorithms.
-- Undersample the data using the ClusterCentroids algorithm.
-- Use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm.
-- Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
-We will evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
-
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, you’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, you’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once you’re done, you’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 # Results
 ## RandomOVerSampler
 ![RandomOVerSampler](https://github.com/arelysrsd87/Credit_Risk_Analysis/blob/main/Images/NaiveRandomOversampling.jpg)  
